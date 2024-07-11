@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "c:\Users\priya\Desktop\VS Code\New Changes\menu2.py", line 11, in <module>
+    bank.create(name, bal, fd)
+  File "c:\Users\priya\Desktop\VS Code\New Changes\module2.py", line 18, in create
+    accno = self.data[-1][1] + 1
+            ^^^^^^^^^
+AttributeError: 'Bank' object has no attribute 'data'
