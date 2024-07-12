@@ -142,3 +142,6 @@ class Bank:
             print("You are not eligible for any credit card.")
         else:
             print(f"You are eligible for a {card_type} credit card with a limit of {limit}.")
+
+
+            #end
