@@ -1,7 +1,24 @@
+Service Provided:
+1. Acc Creation
+2. Deposit
+3. Withdraw
+4. Fixed Deposit
+5. Transaction Details
+6. Check Credit Card Eligibility
+7. Exit
+1
+Enter Name: priyan
+Enter Deposit Amt: 25000
+Enter FD Amt: 20000
+
+
 Traceback (most recent call last):
-  File "c:\Users\priya\Desktop\VS Code\New Changes\menu2.py", line 11, in <module>
+  File "c:\Users\priya\Desktop\VS Code\00000 Completed\menu2.py", line 11, in <module>
     bank.create(name, bal, fd)
-  File "c:\Users\priya\Desktop\VS Code\New Changes\module2.py", line 18, in create
+  File "c:\Users\priya\Desktop\VS Code\00000 Completed\module2.py", line 18, in create
     accno = self.data[-1][1] + 1
             ^^^^^^^^^
 AttributeError: 'Bank' object has no attribute 'data'
+
+
+First it was executed properly when i opened it back this error appears.
