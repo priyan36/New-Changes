@@ -1,0 +1,23 @@
+PS C:\Users\priya\Desktop\VS Code\mysql> django-admin startproject myfrstproject
+django-admin : The term 'django-admin' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and     
+try again.
+At line:1 char:1
++ django-admin startproject myfrstproject
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+
+
+
+
+PS C:\Users\priya\Desktop\VS Code\mysql> django -admin startproject myfrstproject
+django : The term 'django' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ django -admin startproject myfrstproject
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
