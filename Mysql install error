@@ -1,0 +1,24 @@
+Powershell error:-
+
+PS C:\WINDOWS\system32> Invoke-WebRequest -Uri https://dev.mysql.com/get/mysql-installer-web-community -OutFile C:\Temp\mysql-installer-web-community.msi
+>>
+Invoke-WebRequest :
+
+This site https://dev.mysql.com/get/mysql-installer-web-community is experiencing technical difficulty. We are aware
+of the issue and are working as quick as possible to correct the issue.
+We apologize for any inconvenience this may have caused.
+To speak with an Oracle sales representative: 1.800.ORACLE1.
+To contact Oracle Corporate Headquarters from anywhere in the world: 1.650.506.7000.
+To get technical support in the United States: 1.800.633.0738.
+
+
+Incident Number: 18.7bc5668.1721493751.e87c283
+At line:1 char:1
++ Invoke-WebRequest -Uri https://dev.mysql.com/get/mysql-installer-web- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+
+
+
